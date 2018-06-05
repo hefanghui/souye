@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/swiper-3.4.2.min.css">
+    <script>
+        document.documentElement.style.fontSize = window.innerWidth / 750 * 100 + 'px';
+    </script>
+</head>
+
+<body>
+    <div class="wrap">
+        <header>
+            <p>
+                <img src="images/logo.png" alt="">
+            </p>
+            <p>
+                <img src="images/search-icon.png" alt="">
+                <input type="text" placeholder="搜索项目或医院">
+            </p>
+            <p><span>分类</span><img src="images/down-icon.png" alt=""></p>
+        </header>
+        <section>
+            <div class="banner">
+                <div class="swiper-container">
+                    <ul class="swiper-wrapper">
+                        <li class="swiper-slide"><img src="images/banner.png" alt="" /></li>
+                        <li class="swiper-slide"><img src="images/banner.png" alt="" /></li>
+                        <li class="swiper-slide"><img src="images/banner.png" alt="" /></li>
+                    </ul>
+                    <!-- <div class="swiper-pagination"></div> -->
+                </div>
+            </div>
+            <ul class="nav">
+                <li><img src="images/list-1.png" alt="">成单奖励</li>
+                <li><img src="images/list-2.png" alt="">推荐新人</li>
+                <li><img src="images/list-3.png" alt="">收益滚利</li>
+                <li><img src="images/list-4.png" alt="">阶梯奖励</li>
+                <li><img src="images/list-5.png" alt="">异业拓客</li>
+                <li><img src="images/list-6.png" alt="">集采返现</li>
+                <li><img src="images/list-7.png" alt="">新品悬赏</li>
+                <li><img src="images/list-8.png" alt="">敬请期待</li>
+            </ul>
+            <h1><span></span>金牌商家</h1>
+            <div class="zhen">
+                <div class="one">
+                    悦美国际
+                </div>
+                <div class="two">
+                    美人魅力
+                </div>
+            </div>
+        </section>
+        <footer>
+            <ul class="foot">
+                <li><img src="images/fotter-icon.png" alt="">首页</li>
+                <li><img src="images/fotter-icon2.png" alt="">我的</li>
+            </ul>
+        </footer>
+    </div>
+    <script src="js/swiper-3.4.2.min.js"></script>
+    <script>
+        new Swiper('.swiper-container', {
+            autoplay: 1000,
+            loop: true
+        })
+    </script>
+</body>
+
+</html>
